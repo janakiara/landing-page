@@ -1,3 +1,26 @@
 body {
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;   
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: blueviolet;
+}
+
+.container {
+display: flex;
+}
+
+.violet {
+    background-color: blueviolet;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
