@@ -1,26 +1,59 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }  
+
 body {
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;   
+    justify-content:stretch;
 }
 
-.header {
+.navbar {
     display: flex;
     justify-content: space-between;
     color: white;
     background-color: blueviolet;
+    height: 50px;
+    padding: 16px;
+    align-items: center;
+}
+
+img {
+    max-height: 250px;
+    width: auto;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
 }
 
 .container {
 display: flex;
+flex: 1;
+padding: 16px;
+
 }
 
 .violet {
     background-color: blueviolet;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
 }
 
 .footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: blueviolet;
+    height: 50px;
+}
+
+.intro {
+    max-width: 600px;
 }
